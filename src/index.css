@@ -1,18 +1,30 @@
+
+/* Base styles */
 html, body {
   margin: 0;
-  height: 100%;
-  font-family: "Pixelify Sans", sans-serif; 
+  min-height: 100%;
+  font-family: "Pixelify Sans", sans-serif;
   background: url("/img.jpg") no-repeat center center fixed;
   background-size: cover;
+  /* Prevent horizontal scrolling on small screens */
+  overflow-x: hidden;
 }
 
-/* center content properly */
+/* Center content properly */
 #root {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;   /* so h1 and p stack */
-  height: 100%;
+  flex-direction: column; /* so h1 and p stack */
+  min-height: 100vh;       /* use viewport height */
   width: 100%;
+  padding: 20px;           /* some padding for small screens */
+  box-sizing: border-box;
 }
 
+/* Responsive tweaks for smaller screens */
+@media (max-width: 600px) {
+  #root {
+    padding: 10px;
+  }
+}
