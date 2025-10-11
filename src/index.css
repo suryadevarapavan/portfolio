@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: "Pixelify Sans", sans-serif; 
+  background: url("/img.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* center content properly */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;   /* so h1 and p stack */
+  height: 100%;
+  width: 100%;
+}
+

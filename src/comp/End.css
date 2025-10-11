@@ -1,0 +1,38 @@
+.end {
+  text-align: center;
+  color: #0D1B2A;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+
+  /* glass effect */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+
+  /* center block */
+  width: fit-content;          /* shrink to content size */
+  margin: 3rem auto 0 auto;
+  position: relative;
+  top: 150px;    /* auto centers horizontally */
+}
+
+
+
+.end h2 {
+  font-family: "Pixelify Sans", sans-serif; 
+  color: #0D1B2A;
+  font-size: 25x;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.02); /* almost invisible */
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.end:hover{
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
