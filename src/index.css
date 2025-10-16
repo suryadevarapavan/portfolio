@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   min-height: 100%;
-  font-family: "Pixelify Sans", sans-serif;
-  background: url("/img.jpg") no-repeat center center fixed;
+  font-family: "Inconsolata", monospace;
+  background:  #c0c0c0;
   background-size: cover;
   /* Prevent horizontal scrolling on small screens */
   overflow-x: hidden;
