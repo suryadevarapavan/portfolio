@@ -1,6 +1,5 @@
-
 .skills-wrapper {
-  color: #0D1B2A;
+  color: #black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,13 +20,13 @@
 }
 
 .skills-title {
-  color: #0D1B2A;
+  color: black;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 .skills-subtitle {
-  color: #0D1B2A;
+  color: black;
   font-size: 1.4rem;
   margin: 1.5rem 0 1rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -51,12 +50,15 @@
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 130px;
-  height: 130px;
+  height: 150px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  text-align: center;
+  padding: 10px;
 }
 
 .icon-link:hover {
@@ -69,4 +71,13 @@
   height: auto;
   object-fit: contain;
   pointer-events: none;
+}
+
+.icon-link span {
+  font-size: 14px;
+  margin-top: 15px; /* Space between icon and name */
+  color: black;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
 }
