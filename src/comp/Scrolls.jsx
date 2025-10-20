@@ -1,5 +1,3 @@
-
-// Scrolls.jsx
 import React from "react";
 import "./Scrolls.css";
 
@@ -46,7 +44,7 @@ function Scrolls() {
                 rel="noopener noreferrer"
                 className="scroll-link"
               >
-                View Scroll
+                View Code
               </a>
             </div>
           ))}

@@ -10,7 +10,7 @@ function Card() {
   </div>
 
   <div className="div2">
-<p>Final-year B.Tech student in Information Technology with hands-on experience in web development, systems programming, and security tooling. Skilled in building full-stack applications using Python, Go, JavaScript, and SQL, with additional exposure to cloud platforms and AI/ML model fine-tuning. Actively engaged in problem-solving through coding practice to improve efficiency and debugging skills. Looking to apply technical knowledge, project experience, and continuous learning mindset to contribute to impactful real-world software projects in a professional environment.
+<p>Final-year B.Tech student in Information Technology with hands-on experience in web development, systems programming, and security tooling. Skilled in building full-stack applications using Python, Go, JavaScript, and SQL, with additional exposure to cloud platforms and AI/ML models. Actively engaged in problem-solving through coding practice to improve efficiency and debugging skills. Looking to apply technical knowledge, project experience, and continuous learning mindset to contribute to impactful real-world software projects in a professional environment.
 </p>
   </div>
 
@@ -21,8 +21,7 @@ I have earned a 50-day streak badge on LeetCode and solved over 100 coding probl
   </div>
 
   <div className="div4">
-    <p>
-      Currently developing CELENX, a cloud-infused, GPU-accelerated, pixel-forged gaming experience that bends reality with every frame, engineered to challenge players and entertain at scale.
+    <p>Currently exploring the vast frontier of computer science, delving into IoT, Linux, networking, AI models, and intelligent agents, to unlock innovative solutions and push the boundaries of technology with every discovery.
     </p>
   </div>
 </div>
